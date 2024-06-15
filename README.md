@@ -13,3 +13,4 @@ La estructura de la interfaz se organiza usando un BorderPane (borderPane) como 
 Para la opción "Acerca de" en el menú "Ayuda", se define un método llamado mostrarAcercaDe(), que muestra un cuadro de diálogo (Alert) cuando se selecciona esta opción.
 
 En el método main, la aplicación se inicia llamando a launch(args), lo que lanza la interfaz y maneja las interacciones del usuario.
+
