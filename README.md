@@ -1,17 +1,15 @@
 # Sistemas-de-Menu-Kimberly-Vinces-Melgar-
 
-![WhatsApp Image 2024-06-14 at 10 06 43 PM](https://github.com/Kimberly168888/Sistemas-de-Menu-Kimberly-Vinces-Melgar-/assets/169225018/888968ce-32a5-4e91-8c92-d3549941a2c8)
+![WhatsApp Image 2024-06-14 at 11 14 36 PM](https://github.com/Kimberly168888/Sistemas-de-Menu-Kimberly-Vinces-Melgar-/assets/169225018/cf84f6c8-bcda-4ebf-8dcb-62d1e84bc964)
 
-Detalles del Código de Selección de Fecha:
+Explicación del código:
 
-Se ha diseñado una interfaz gráfica sencilla que emplea controles como DatePicker para la selección de fechas, ColorPicker para la elección de colores y un botón para confirmar las selecciones realizadas. Además, se utilizan etiquetas (Labels) para orientar al usuario y mostrar un título descriptivo.
+Se construye una interfaz de usuario que incorpora una barra de menú (menuBar) con tres menús principales: "Archivo", "Editar" y "Ayuda". Cada menú incluye varios elementos de menú (MenuItem) y algunos de estos están separados por separadores (SeparatorMenuItem) para mejorar la organización visual.
 
-DatePicker: Facilita la selección de una fecha.
+Cada MenuItem tiene una acción específica asociada mediante expresiones lambda. Por ejemplo, al seleccionar "Nuevo" en el menú "Archivo", se imprime un mensaje en la consola.
 
-ColorPicker: Facilita la elección de un color.
+La estructura de la interfaz se organiza usando un BorderPane (borderPane) como contenedor principal, y la MenuBar se coloca en la parte superior del BorderPane (setTop).
 
-Botón: Al ser presionado, muestra la fecha y el color seleccionados tanto en la consola como en una etiqueta adicional en la interfaz gráfica. Se ha implementado un VBox para organizar los controles de manera vertical y centrarlos en la interfaz, lo cual facilita una presentación ordenada de los elementos.
+Para la opción "Acerca de" en el menú "Ayuda", se define un método llamado mostrarAcercaDe(), que muestra un cuadro de diálogo (Alert) cuando se selecciona esta opción.
 
-Al Presionar el Botón:
-
-La aplicación permite al usuario seleccionar una fecha y un color, y al confirmar con el botón, estas selecciones se reflejan visualmente y en la consola.
+En el método main, la aplicación se inicia llamando a launch(args), lo que lanza la interfaz y maneja las interacciones del usuario.
